@@ -38,7 +38,8 @@ b/
 4. Track.where(duration: "158589") => 0
 
 c/
-```1.  acdc_songs = Track.where(artist: "AC/DC")
+```
+1.  acdc_songs = Track.where(artist: "AC/DC")
     acdc_songs.each do |i|
       puts i.title
     end
