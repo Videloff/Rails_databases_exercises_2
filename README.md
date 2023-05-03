@@ -1,7 +1,7 @@
 ## REPONSES
 
 
-A)
+A)/
 1.
 <details>
   <summary>Spoiler warning</summary>
@@ -43,7 +43,7 @@ A)
   
 </details>
 
-B)
+B)/
 1. 
 <details>
   <summary>Spoiler warning</summary>
@@ -86,7 +86,7 @@ B)
 </details>
 
 
-C)
+C)/
 1.  
 <details>
   <summary>Spoiler warning</summary>
