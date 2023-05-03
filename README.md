@@ -38,7 +38,7 @@ b/
 4. Track.where(duration: "158589") => 0
 
 c/
-1.  acdc_songs = Track.where(artist: "AC/DC")
+```1.  acdc_songs = Track.where(artist: "AC/DC")
     acdc_songs.each do |i|
       puts i.title
     end
@@ -50,14 +50,14 @@ c/
 
 3.  songs.sum(:duration)
 
-4.  deep = Track.where("artist like ?", "Deep Purple")\
-    val = 0\
-    deep.each do |i|\
-      val = +i.price\
-    end\
+4.  deep = Track.where("artist like ?", "Deep Purple")
+    val = 0
+    deep.each do |i|
+      val = +i.price
+    end
     puts val => 91.08(round)
 
-5.  brit = Track.where("artist like ?", "Eric Clapton")\
-    brit.each do |i|\
-      i.update(artist: "Britney Spears")\
-    end
+5.  brit = Track.where("artist like ?", "Eric Clapton")
+    brit.each do |i|
+      i.update(artist: "Britney Spears")
+    end```
