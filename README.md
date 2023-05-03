@@ -40,8 +40,8 @@ b/
 c/
 ```
 1.  acdc_songs = Track.where(artist: "AC/DC")
-    acdc_songs.each do |i|
-      puts i.title
+    (acdc_songs.length).time do |i|
+      puts acdc_songs[i].title
     end
 
 2.  songs = Track.where(album: "Let There Be Rock")
