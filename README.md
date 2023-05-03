@@ -60,4 +60,4 @@ c/
 5.  brit = Track.where("artist like ?", "Eric Clapton")
     brit.each do |i|
       i.update(artist: "Britney Spears")
-    end```
+    end
