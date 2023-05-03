@@ -34,7 +34,7 @@ a/
 b/
 1. Album.where("title like ?", "%great%").count
 2. Album.delete_by(title: "%music%")
-3. Album.where(artist: "%AC/DC%").count => 2
+3. Album.where(artist: "AC/DC").count => 2
 4. Track.where(duration: "158589") => 0
 
 c/
